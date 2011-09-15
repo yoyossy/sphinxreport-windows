@@ -5,4 +5,5 @@ doc/_cache/
 doc/_static/
 doc/sphinxreport.log
 SphinxReport.egg-info/
+buildout.cfg
 

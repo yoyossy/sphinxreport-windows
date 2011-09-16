@@ -189,8 +189,9 @@ def run(arguments,
         # for presence/absence of text element and if all figures
         # mentioned in the text element are present
         ###########################################################
-        queries = [ re.compile( "%s(%s\S+.%s)" % ( root2builddir, outdir, suffix ) ) for suffix in ("png", "pdf") ]
-
+        #queries = [ re.compile( "%s(%s\S+.%s)" % ( root2builddir, outdir, suffix ) ) for suffix in ("png", "pdf") ]
+        ##### LIO-2011-09-16 : RAJOUT de guillemets autour de  root2builddir ci-dessus sinon bug "
+        queries = [ re.compile( "%s(%s\S+.%s)" % ( "root2builddir", outdir, suffix ) ) for suffix in ("png", "pdf") ]
         logging.debug( "report_directive.run: checking for changed files." )
 
         # check if text element exists

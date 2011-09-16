@@ -42,7 +42,7 @@ setup(name='SphinxReport',
       keywords="report generator sphinx matplotlib sql",
       long_description='SphinxReport : a report generator in python based on Sphinx and matplotlib',
       classifiers = filter(None, classifiers.split("\n")),
-      install_requires = ['sphinx>=0.5-1', "matplotlib>=0.98.1", "sqlalchemy==0.6.8" ],
+      # install_requires = ['sphinx>=0.5-1', "matplotlib>=0.98.1", "sqlalchemy==0.6.8" ],
       zip_safe = False,
       include_package_data = True,
       entry_points = \

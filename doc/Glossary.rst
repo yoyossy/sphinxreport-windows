@@ -78,3 +78,7 @@ Glossary
 
    data path
       path towards some data in a :term:`data tree`.
+      
+   render
+      The restructured text directive supplied by the SphinxSqlPlot extension.
+      
